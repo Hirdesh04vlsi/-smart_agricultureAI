@@ -1,0 +1,137 @@
+import os
+import csv
+from pathlib import Path
+
+# ============================================================
+# CONFIGURATION
+# ============================================================
+
+# CHANGE THIS PATH to your RAW_DATASETS folder
+RAW_ROOT = Path(r"D:\AI_Agriculture_Dataset\RAW_DATASETS\Bottle_Gourd")
+
+OUTPUT_FILE = Path("dataset_inventory.csv")
+
+# ============================================================
+# IMAGE EXTENSIONS
+# ============================================================
+
+IMAGE_EXTENSIONS = {
+    ".jpg", ".jpeg", ".png", ".bmp", ".tif", ".tiff", ".webp"
+}
+
+# ============================================================
+# SCAN DATASETS
+# ============================================================
+
+records = []
+
+for dataset_folder in RAW_ROOT.iterdir():
+
+    if not dataset_folder.is_dir():
+        continue
+
+    dataset_name = dataset_folder.name
+
+    print(f"\nScanning: {dataset_name}")
+
+    for root, dirs, files in os.walk(dataset_folder):
+
+        for file in files:
+
+            file_path = Path(root) / file
+
+            if file_path.suffix.lower() not in IMAGE_EXTENSIONS:
+                continue
+
+            # Get class from immediate parent folder
+            original_class = file_path.parent.name
+
+            # Check whether image is inside an augmented folder
+            path_lower = str(file_path).lower()
+
+            if "augment" in path_lower:
+                augmented = "YES"
+            else:
+                augmented = "NO"
+
+            records.append({
+                "dataset": dataset_name,
+                "original_class": original_class,
+                "filename": file,
+                "source_path": str(file_path.resolve()),
+                "extension": file_path.suffix.lower(),
+                "augmented": augmented
+            })
+
+# ============================================================
+# SAVE CSV
+# ============================================================
+
+with open(
+    OUTPUT_FILE,
+    "w",
+    newline="",
+    encoding="utf-8"
+) as f:
+
+    writer = csv.DictWriter(
+        f,
+        fieldnames=[
+            "dataset",
+            "original_class",
+            "filename",
+            "source_path",
+            "extension",
+            "augmented"
+        ]
+    )
+
+    writer.writeheader()
+    writer.writerows(records)
+
+# ============================================================
+# SUMMARY
+# ============================================================
+
+print("\n======================================")
+print("DATASET INVENTORY COMPLETE")
+print("======================================")
+
+print(f"Total images found: {len(records)}")
+print(f"Inventory saved to: {OUTPUT_FILE.resolve()}")
+
+print("\nImages by dataset:")
+
+dataset_counts = {}
+
+for r in records:
+    dataset_counts[r["dataset"]] = \
+        dataset_counts.get(r["dataset"], 0) + 1
+
+for dataset, count in sorted(dataset_counts.items()):
+    print(f"  {dataset}: {count}")
+
+print("\nImages by dataset + class:")
+
+class_counts = {}
+
+for r in records:
+
+    key = (
+        r["dataset"],
+        r["original_class"],
+        r["augmented"]
+    )
+
+    class_counts[key] = class_counts.get(key, 0) + 1
+
+for key, count in sorted(class_counts.items()):
+
+    dataset, cls, augmented = key
+
+    print(
+        f"  {dataset} | "
+        f"{cls} | "
+        f"Augmented={augmented}: "
+        f"{count}"
+    )

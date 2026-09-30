@@ -1,0 +1,13 @@
+{
+    "crop": "Bottle Gourd",
+    "total_test_images": 1823,
+    "correct": 1690,
+    "incorrect": 133,
+    "accuracy": 0.9270433351618211,
+    "macro_precision": 0.9347445154447642,
+    "macro_recall": 0.9424778469585494,
+    "macro_f1": 0.9379751898805461,
+    "weighted_precision": 0.9285970571327103,
+    "weighted_recall": 0.9270433351618211,
+    "weighted_f1": 0.9270173202242563
+}

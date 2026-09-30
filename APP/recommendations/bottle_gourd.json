@@ -1,0 +1,220 @@
+{
+  "crop": {
+    "name": "Bottle Gourd",
+    "hindi_name": "लौकी",
+    "scientific_name": "Lagenaria siceraria"
+  },
+
+  "diseases": {
+
+    "Alternaria_Leaf_Blight": {
+      "name": "Alternaria Leaf Blight",
+      "hindi_name": "अल्टरनेरिया पत्ती झुलसा",
+      "type": "Fungal Disease",
+
+      "symptoms": {
+        "english": "Small brown to dark circular or irregular spots appear on leaves. The spots may enlarge and develop concentric rings, causing affected leaves to turn yellow and dry.",
+        "hindi": "पत्तियों पर छोटे भूरे से गहरे रंग के गोल या अनियमित धब्बे दिखाई देते हैं। धब्बे धीरे-धीरे बड़े होकर छल्लेदार आकृति बना सकते हैं और प्रभावित पत्तियाँ पीली होकर सूखने लगती हैं।"
+      },
+
+      "immediate_action": {
+        "english": "Remove severely affected leaves and dispose of them away from the field. Improve air circulation around plants and avoid keeping foliage continuously wet.",
+        "hindi": "बहुत अधिक प्रभावित पत्तियों को हटाकर खेत से दूर नष्ट करें। पौधों के बीच हवा का उचित आवागमन रखें और पत्तियों को लगातार गीला रहने से बचाएँ।"
+      },
+
+      "prevention": {
+        "english": "Use healthy planting material, maintain adequate spacing, avoid overhead irrigation, remove infected plant debris, and keep the field well ventilated.",
+        "hindi": "स्वस्थ बीज एवं पौध सामग्री का उपयोग करें, पौधों के बीच पर्याप्त दूरी रखें, ऊपर से सिंचाई करने से बचें, संक्रमित पौधों के अवशेष हटाएँ और खेत में उचित वायु संचार बनाए रखें।"
+      }
+    },
+
+    "Anthracnose": {
+      "name": "Anthracnose",
+      "hindi_name": "एन्थ्रेक्नोज",
+      "type": "Fungal Disease",
+
+      "symptoms": {
+        "english": "Brown, dark or sunken lesions may develop on leaves, stems and fruits. Under favorable humid conditions, lesions can enlarge and cause tissue death.",
+        "hindi": "पत्तियों, तनों और फलों पर भूरे, गहरे रंग के या धँसे हुए घाव दिखाई दे सकते हैं। अधिक नमी की स्थिति में ये घाव बढ़ सकते हैं और पौधे के ऊतकों को नुकसान पहुँचा सकते हैं।"
+      },
+
+      "immediate_action": {
+        "english": "Remove and destroy severely infected leaves and fruits. Avoid working with wet plants and improve field ventilation.",
+        "hindi": "बहुत अधिक संक्रमित पत्तियों और फलों को हटाकर नष्ट करें। गीले पौधों पर काम करने से बचें और खेत में हवा का उचित आवागमन बनाए रखें।"
+      },
+
+      "prevention": {
+        "english": "Use disease-free seeds, maintain proper plant spacing, avoid excessive moisture on foliage, remove crop residues after harvest, and practice crop rotation.",
+        "hindi": "रोग-मुक्त बीजों का उपयोग करें, पौधों के बीच उचित दूरी रखें, पत्तियों पर अत्यधिक नमी से बचें, कटाई के बाद फसल के अवशेष हटाएँ और फसल चक्र अपनाएँ।"
+      }
+    },
+
+    "Downy_Mildew": {
+      "name": "Downy Mildew",
+      "hindi_name": "डाउनी मिल्ड्यू / झुलसा रोग",
+      "type": "Fungal-like Disease",
+
+      "symptoms": {
+        "english": "Yellow to pale green angular spots develop on the upper leaf surface. Under humid conditions, grayish or purplish growth may appear on the underside of leaves.",
+        "hindi": "पत्तियों की ऊपरी सतह पर पीले से हल्के हरे रंग के कोणीय धब्बे दिखाई देते हैं। अधिक नमी की स्थिति में पत्तियों की निचली सतह पर धूसर या बैंगनी रंग की वृद्धि दिखाई दे सकती है।"
+      },
+
+      "immediate_action": {
+        "english": "Remove badly infected leaves, reduce prolonged leaf wetness, and improve air circulation through the crop.",
+        "hindi": "बहुत अधिक संक्रमित पत्तियों को हटा दें, पत्तियों पर लंबे समय तक नमी रहने से बचाएँ और फसल में हवा का उचित संचार बनाए रखें।"
+      },
+
+      "prevention": {
+        "english": "Avoid overhead irrigation, provide adequate plant spacing, irrigate near the soil rather than foliage, remove infected debris, and maintain good field ventilation.",
+        "hindi": "ऊपर से सिंचाई करने से बचें, पौधों के बीच पर्याप्त दूरी रखें, पत्तियों की बजाय मिट्टी के पास सिंचाई करें, संक्रमित अवशेष हटाएँ और खेत में अच्छा वायु संचार बनाए रखें।"
+      }
+    },
+
+    "Dry_Leaf": {
+      "name": "Dry Leaf",
+      "hindi_name": "सूखी पत्ती",
+      "type": "Leaf Damage / Stress",
+
+      "symptoms": {
+        "english": "Leaves may become dry, brown, curled or brittle. Symptoms can be associated with water stress, environmental stress, aging leaves or other plant health problems.",
+        "hindi": "पत्तियाँ सूखी, भूरी, मुड़ी हुई या भंगुर दिखाई दे सकती हैं। इसके लक्षण पानी की कमी, पर्यावरणीय तनाव, पुरानी पत्तियों या अन्य पौध स्वास्थ्य समस्याओं से जुड़े हो सकते हैं।"
+      },
+
+      "immediate_action": {
+        "english": "Check soil moisture and irrigation conditions. Remove completely dead leaves and inspect the plant for additional disease or pest symptoms.",
+        "hindi": "मिट्टी की नमी और सिंचाई की स्थिति की जाँच करें। पूरी तरह सूखी पत्तियों को हटाएँ और पौधे में अन्य रोग या कीट के लक्षणों की जाँच करें।"
+      },
+
+      "prevention": {
+        "english": "Maintain consistent soil moisture, avoid both severe drought and waterlogging, improve soil drainage, and monitor plants regularly for pests and diseases.",
+        "hindi": "मिट्टी में नियमित नमी बनाए रखें, अत्यधिक सूखे और जलभराव दोनों से बचें, मिट्टी की जल निकासी अच्छी रखें और पौधों में कीट एवं रोगों की नियमित निगरानी करें।"
+      }
+    },
+
+    "Early_Alternaria_Leaf_Blight": {
+      "name": "Early Alternaria Leaf Blight",
+      "hindi_name": "प्रारंभिक अल्टरनेरिया पत्ती झुलसा",
+      "type": "Fungal Disease",
+
+      "symptoms": {
+        "english": "Early small brown or dark lesions appear on leaves. The lesions can gradually enlarge and may develop darker margins or concentric patterns.",
+        "hindi": "पत्तियों पर प्रारंभिक अवस्था में छोटे भूरे या गहरे रंग के घाव दिखाई देते हैं। समय के साथ ये घाव बड़े हो सकते हैं और इनके किनारे गहरे या छल्लेदार दिखाई दे सकते हैं।"
+      },
+
+      "immediate_action": {
+        "english": "Inspect plants frequently, remove early infected leaves, reduce leaf wetness, and improve air circulation.",
+        "hindi": "पौधों की नियमित जाँच करें, शुरुआती संक्रमित पत्तियों को हटा दें, पत्तियों पर नमी कम रखें और हवा का उचित आवागमन बनाए रखें।"
+      },
+
+      "prevention": {
+        "english": "Start with healthy seed, maintain adequate spacing, avoid overhead watering, remove infected leaves and crop debris, and use crop rotation where practical.",
+        "hindi": "स्वस्थ बीज से शुरुआत करें, पौधों के बीच पर्याप्त दूरी रखें, ऊपर से सिंचाई से बचें, संक्रमित पत्तियों एवं फसल अवशेषों को हटाएँ और जहाँ संभव हो फसल चक्र अपनाएँ।"
+      }
+    },
+
+    "Fungal_Damage_Leaf": {
+      "name": "Fungal Damage on Leaf",
+      "hindi_name": "पत्ती पर फफूंद जनित क्षति",
+      "type": "Fungal Damage",
+
+      "symptoms": {
+        "english": "Leaves may show irregular brown, dark or necrotic patches associated with fungal infection. Severe damage can result in yellowing, drying and premature leaf loss.",
+        "hindi": "पत्तियों पर फफूंद संक्रमण से जुड़े अनियमित भूरे, गहरे या मृत ऊतक वाले धब्बे दिखाई दे सकते हैं। अधिक संक्रमण में पत्तियाँ पीली होकर सूख सकती हैं और समय से पहले गिर सकती हैं।"
+      },
+
+      "immediate_action": {
+        "english": "Remove severely affected leaves, keep foliage dry where possible, improve ventilation, and inspect nearby plants for similar symptoms.",
+        "hindi": "बहुत अधिक प्रभावित पत्तियों को हटाएँ, जहाँ संभव हो पत्तियों को सूखा रखें, वायु संचार सुधारें और आसपास के पौधों में समान लक्षणों की जाँच करें।"
+      },
+
+      "prevention": {
+        "english": "Use healthy planting material, avoid excessive irrigation, maintain plant spacing, remove infected plant debris, and keep the crop canopy well ventilated.",
+        "hindi": "स्वस्थ बीज एवं पौध सामग्री का उपयोग करें, अत्यधिक सिंचाई से बचें, पौधों के बीच उचित दूरी रखें, संक्रमित पौध अवशेष हटाएँ और फसल की पत्तियों के बीच अच्छा वायु संचार बनाए रखें।"
+      }
+    },
+
+    "Healthy": {
+      "name": "Healthy Leaf",
+      "hindi_name": "स्वस्थ पत्ती",
+      "type": "Healthy",
+
+      "symptoms": {
+        "english": "The leaf appears generally green and healthy without clear signs of major disease damage.",
+        "hindi": "पत्ती सामान्यतः हरी और स्वस्थ दिखाई देती है तथा किसी प्रमुख रोग के स्पष्ट लक्षण दिखाई नहीं देते हैं।"
+      },
+
+      "immediate_action": {
+        "english": "No disease-specific action is indicated. Continue normal irrigation, nutrition and regular crop monitoring.",
+        "hindi": "किसी विशेष रोग नियंत्रण की आवश्यकता दिखाई नहीं देती। सामान्य सिंचाई, पोषण और फसल की नियमित निगरानी जारी रखें।"
+      },
+
+      "prevention": {
+        "english": "Maintain balanced nutrition, proper irrigation, adequate spacing, good field sanitation, and regularly inspect plants for early signs of disease or pests.",
+        "hindi": "संतुलित पोषण, उचित सिंचाई, पर्याप्त पौध दूरी और खेत की स्वच्छता बनाए रखें तथा रोग एवं कीट के शुरुआती लक्षणों के लिए पौधों की नियमित जाँच करें।"
+      }
+    },
+
+    "Mosaic_Virus": {
+      "name": "Mosaic Virus",
+      "hindi_name": "मोज़ेक वायरस",
+      "type": "Viral Disease",
+
+      "symptoms": {
+        "english": "Leaves may show irregular light and dark green mosaic patterns, mottling, distortion and sometimes reduced leaf growth.",
+        "hindi": "पत्तियों पर हल्के और गहरे हरे रंग के अनियमित मोज़ेक पैटर्न, चितकबरापन, पत्ती का विकृत होना और कभी-कभी पत्ती की वृद्धि कम होना दिखाई दे सकता है।"
+      },
+
+      "immediate_action": {
+        "english": "Remove plants showing severe viral symptoms when appropriate and control potential insect vectors. Do not use infected plant material for propagation.",
+        "hindi": "बहुत अधिक वायरस लक्षण वाले पौधों को आवश्यकता के अनुसार हटाएँ और संभावित कीट वाहकों का नियंत्रण करें। संक्रमित पौध सामग्री को अगली फसल के लिए उपयोग न करें।"
+      },
+
+      "prevention": {
+        "english": "Use healthy seed and planting material, control insect vectors such as aphids and whiteflies, remove severely infected plants, control weeds that may harbor vectors, and disinfect tools between plants.",
+        "hindi": "स्वस्थ बीज एवं पौध सामग्री का उपयोग करें, एफिड और सफेद मक्खी जैसे कीट वाहकों को नियंत्रित करें, अधिक संक्रमित पौधों को हटाएँ, ऐसे खरपतवारों को नियंत्रित करें जिनमें वाहक कीट रह सकते हैं और पौधों के बीच उपकरणों को साफ करें।"
+      }
+    },
+
+    "Nutrition_Deficiency": {
+      "name": "Nutrition Deficiency",
+      "hindi_name": "पोषक तत्वों की कमी",
+      "type": "Nutritional Disorder",
+
+      "symptoms": {
+        "english": "Leaves may show yellowing, pale coloration, poor growth or other symptoms associated with insufficient or imbalanced plant nutrients. Image symptoms alone cannot identify the exact nutrient deficiency.",
+        "hindi": "पत्तियों में पीलापन, हल्का रंग, कमजोर वृद्धि या पोषक तत्वों की कमी अथवा असंतुलन से जुड़े अन्य लक्षण दिखाई दे सकते हैं। केवल पत्ती की तस्वीर से किसी विशेष पोषक तत्व की कमी की निश्चित पहचान नहीं की जा सकती।"
+      },
+
+      "immediate_action": {
+        "english": "Check soil condition and, where possible, use soil testing before applying corrective nutrients. Avoid applying nutrients blindly or excessively.",
+        "hindi": "मिट्टी की स्थिति की जाँच करें और जहाँ संभव हो पोषक तत्व देने से पहले मिट्टी की जाँच करवाएँ। बिना जाँच के या अत्यधिक मात्रा में उर्वरक देने से बचें।"
+      },
+
+      "prevention": {
+        "english": "Maintain balanced crop nutrition based on soil conditions, use organic matter appropriately, monitor plant growth, and use soil testing to guide nutrient management.",
+        "hindi": "मिट्टी की स्थिति के अनुसार संतुलित पोषण दें, उचित मात्रा में जैविक पदार्थ का उपयोग करें, पौधों की वृद्धि की निगरानी करें और पोषक तत्व प्रबंधन के लिए मिट्टी की जाँच का उपयोग करें।"
+      }
+    },
+
+    "Pest_Infestation": {
+      "name": "Pest Infestation",
+      "hindi_name": "कीट प्रकोप",
+      "type": "Insect / Pest Damage",
+
+      "symptoms": {
+        "english": "Leaves may show feeding damage, holes, curling, discoloration or other visible signs associated with insect or pest activity.",
+        "hindi": "पत्तियों पर कीटों द्वारा खाने के कारण छेद, मुड़ना, रंग में बदलाव या अन्य दिखाई देने वाली क्षति के लक्षण हो सकते हैं।"
+      },
+
+      "immediate_action": {
+        "english": "Inspect both sides of leaves and growing points for insects or eggs. Remove heavily damaged plant parts and identify the pest before selecting a control method.",
+        "hindi": "पत्तियों की दोनों सतहों और नई वृद्धि वाले भागों पर कीटों या अंडों की जाँच करें। अधिक क्षतिग्रस्त भागों को हटाएँ और नियंत्रण विधि चुनने से पहले कीट की पहचान करें।"
+      },
+
+      "prevention": {
+        "english": "Inspect crops regularly, maintain field sanitation, remove heavily infested plant parts, control weeds that can harbor pests, and encourage beneficial insects through integrated pest management.",
+        "hindi": "फसल की नियमित निगरानी करें, खेत की स्वच्छता बनाए रखें, अधिक संक्रमित पौध भागों को हटाएँ, कीटों को आश्रय देने वाले खरपतवार नियंत्रित करें और समेकित कीट प्रबंधन के माध्यम से लाभकारी कीटों को बढ़ावा दें।"
+      }
+    }
+  }
+}

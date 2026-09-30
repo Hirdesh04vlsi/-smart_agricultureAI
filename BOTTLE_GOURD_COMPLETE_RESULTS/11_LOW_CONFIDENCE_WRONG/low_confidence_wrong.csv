@@ -1,0 +1,12 @@
+index,true_class,predicted_class,confidence,correct,_confidence,_correct
+32,Alternaria_Leaf_Blight,Anthracnose,0.4604642689228058,False,0.4604642689228058,False
+77,Alternaria_Leaf_Blight,Healthy,0.4903135597705841,False,0.4903135597705841,False
+335,Anthracnose,Downy_Mildew,0.4697467982769012,False,0.4697467982769012,False
+350,Anthracnose,Mosaic_Virus,0.4144453704357147,False,0.4144453704357147,False
+933,Early_Alternaria_Leaf_Blight,Healthy,0.3794477880001068,False,0.3794477880001068,False
+974,Early_Alternaria_Leaf_Blight,Downy_Mildew,0.2741013169288635,False,0.2741013169288635,False
+982,Early_Alternaria_Leaf_Blight,Alternaria_Leaf_Blight,0.433955043554306,False,0.433955043554306,False
+1229,Healthy,Early_Alternaria_Leaf_Blight,0.3906756937503814,False,0.3906756937503814,False
+1328,Healthy,Downy_Mildew,0.3789145350456238,False,0.3789145350456238,False
+1715,Mosaic_Virus,Downy_Mildew,0.3679190874099731,False,0.3679190874099731,False
+1759,Mosaic_Virus,Early_Alternaria_Leaf_Blight,0.4591265320777893,False,0.4591265320777893,False

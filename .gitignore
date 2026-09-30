@@ -1,0 +1,69 @@
+# ===== Git metadata backups =====
+.git_old/
+.git_backup/
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# ===== VS Code =====
+.vscode/
+
+# ===== Environment / secrets =====
+.env
+*.env
+
+# ===== RAW / TRAINING DATA =====
+RAW_DATASETS/
+MASTER_DATASET/
+SPLIT_DATASET/
+RESIZED_DATASET/
+
+# ===== Large generated datasets =====
+CROSS_SOURCE_DATASET/
+
+# ===== Model checkpoints =====
+*.pth
+*.pt
+*.onnx
+*.h5
+*.keras
+*.ckpt
+
+# ===== Training outputs containing large files =====
+TRAINING_OUTPUT/
+CROSS_SOURCE_RESULTS/
+TEST_EVALUATION/
+
+# ===== Generated image galleries / uploads =====
+WEB_UPLOADS/
+APP/uploads/
+
+# ===== Large image archives =====
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+
+# ===== Logs / temporary files =====
+*.log
+*.tmp
+*.temp
+
+# ===== OS files =====
+Thumbs.db
+.DS_Store
+
+RF_GLCM_RESULTS/random_forest_glcm.pkl
+
+RF_GLCM_RESULTS/random_forest_glcm.pkl
+
+.git_old/
+.git_backup/
+.git_before_final_cleanup/
+

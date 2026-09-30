@@ -1,0 +1,11 @@
+,Alternaria_Leaf_Blight,Anthracnose,Downy_Mildew,Dry_Leaf,Early_Alternaria_Leaf_Blight,Fungal_Damage_Leaf,Healthy,Mosaic_Virus,Nutrition_Deficiency,Pest_Infestation
+Alternaria_Leaf_Blight,135,15,0,0,9,0,4,3,0,0
+Anthracnose,20,282,5,0,12,0,3,13,0,0
+Downy_Mildew,1,0,293,0,2,0,0,1,0,0
+Dry_Leaf,0,0,0,55,0,0,0,0,0,0
+Early_Alternaria_Leaf_Blight,5,0,1,0,138,1,6,2,0,0
+Fungal_Damage_Leaf,0,0,0,0,1,150,0,1,0,0
+Healthy,3,0,2,0,6,3,419,1,0,0
+Mosaic_Virus,1,4,2,0,5,1,0,170,0,0
+Nutrition_Deficiency,0,0,0,0,0,0,0,0,15,0
+Pest_Infestation,0,0,0,0,0,0,0,0,0,33

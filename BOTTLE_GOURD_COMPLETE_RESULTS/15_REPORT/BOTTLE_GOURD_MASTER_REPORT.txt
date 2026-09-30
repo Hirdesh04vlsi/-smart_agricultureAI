@@ -1,0 +1,122 @@
+BOTTLE GOURD AI DISEASE DETECTION
+COMPLETE MODEL ANALYSIS REPORT
+================================================================================
+
+1. TEST SET SUMMARY
+--------------------------------------------------------------------------------
+Test images: 1,823
+Correct predictions: 1,690
+Incorrect predictions: 133
+Accuracy: 92.70%
+Macro Precision: 93.47%
+Macro Recall: 94.25%
+Macro F1: 93.80%
+Weighted F1: 92.70%
+
+2. PER-CLASS RESULTS
+--------------------------------------------------------------------------------
+
+Alternaria_Leaf_Blight
+  Precision: 0.8182
+  Recall: 0.8133
+  F1: 0.8157
+  Support: 166
+
+Anthracnose
+  Precision: 0.9369
+  Recall: 0.8418
+  F1: 0.8868
+  Support: 335
+
+Downy_Mildew
+  Precision: 0.9670
+  Recall: 0.9865
+  F1: 0.9767
+  Support: 297
+
+Dry_Leaf
+  Precision: 1.0000
+  Recall: 1.0000
+  F1: 1.0000
+  Support: 55
+
+Early_Alternaria_Leaf_Blight
+  Precision: 0.7977
+  Recall: 0.9020
+  F1: 0.8466
+  Support: 153
+
+Fungal_Damage_Leaf
+  Precision: 0.9677
+  Recall: 0.9868
+  F1: 0.9772
+  Support: 152
+
+Healthy
+  Precision: 0.9699
+  Recall: 0.9654
+  F1: 0.9677
+  Support: 434
+
+Mosaic_Virus
+  Precision: 0.8901
+  Recall: 0.9290
+  F1: 0.9091
+  Support: 183
+
+Nutrition_Deficiency
+  Precision: 1.0000
+  Recall: 1.0000
+  F1: 1.0000
+  Support: 15
+
+Pest_Infestation
+  Precision: 1.0000
+  Recall: 1.0000
+  F1: 1.0000
+  Support: 33
+
+3. ERROR ANALYSIS
+--------------------------------------------------------------------------------
+Total errors: 133
+Error rate: 7.30%
+High-confidence errors (>=80%): 68
+Low-confidence errors (<50%): 11
+
+Top confusion pairs:
+  Anthracnose -> Alternaria_Leaf_Blight: 20
+  Alternaria_Leaf_Blight -> Anthracnose: 15
+  Anthracnose -> Mosaic_Virus: 13
+  Anthracnose -> Early_Alternaria_Leaf_Blight: 12
+  Alternaria_Leaf_Blight -> Early_Alternaria_Leaf_Blight: 9
+  Early_Alternaria_Leaf_Blight -> Healthy: 6
+  Healthy -> Early_Alternaria_Leaf_Blight: 6
+  Anthracnose -> Downy_Mildew: 5
+  Early_Alternaria_Leaf_Blight -> Alternaria_Leaf_Blight: 5
+  Mosaic_Virus -> Early_Alternaria_Leaf_Blight: 5
+  Alternaria_Leaf_Blight -> Healthy: 4
+  Mosaic_Virus -> Anthracnose: 4
+  Alternaria_Leaf_Blight -> Mosaic_Virus: 3
+  Anthracnose -> Healthy: 3
+  Healthy -> Alternaria_Leaf_Blight: 3
+  Healthy -> Fungal_Damage_Leaf: 3
+  Downy_Mildew -> Early_Alternaria_Leaf_Blight: 2
+  Early_Alternaria_Leaf_Blight -> Mosaic_Virus: 2
+  Healthy -> Downy_Mildew: 2
+  Mosaic_Virus -> Downy_Mildew: 2
+
+4. FILES GENERATED
+--------------------------------------------------------------------------------
+Training curves
+Confusion matrices
+Per-class metrics
+Confidence analysis
+Error analysis
+ROC/PR curves where probability data exists
+Correct prediction galleries
+Wrong prediction galleries
+High-confidence error gallery
+Low-confidence error gallery
+Per-class galleries
+Cross-source results
+Publication figures

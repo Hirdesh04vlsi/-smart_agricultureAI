@@ -1,0 +1,2 @@
+Model,Train_Images,Validation_Images,Test_Images,Feature_Count,Validation_Accuracy,Test_Accuracy,Macro_Precision,Macro_Recall,Macro_F1,Weighted_Precision,Weighted_Recall,Weighted_F1
+Random Forest + Color + GLCM + Edge Features,8470,1811,1823,39,0.7542794036443954,0.7558968732857927,0.7460233423554075,0.7897163470576245,0.7630715405537293,0.7725486948059306,0.7558968732857927,0.7604983175761815

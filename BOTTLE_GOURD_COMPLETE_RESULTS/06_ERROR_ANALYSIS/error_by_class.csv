@@ -1,0 +1,11 @@
+class,total,errors,correct,error_rate
+Alternaria_Leaf_Blight,166,31,135,0.18674698795180722
+Anthracnose,335,53,282,0.1582089552238806
+Downy_Mildew,297,4,293,0.013468013468013467
+Dry_Leaf,55,0,55,0.0
+Early_Alternaria_Leaf_Blight,153,15,138,0.09803921568627451
+Fungal_Damage_Leaf,152,2,150,0.013157894736842105
+Healthy,434,15,419,0.03456221198156682
+Mosaic_Virus,183,13,170,0.07103825136612021
+Nutrition_Deficiency,15,0,15,0.0
+Pest_Infestation,33,0,33,0.0
